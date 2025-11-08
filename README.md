@@ -25,8 +25,6 @@ This project allows you to manage food items, categories, and orders through an 
 ## Installation
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/paulexmaze99/restro.git
 
 Technologies
@@ -38,3 +36,21 @@ MySQL / MariaDB
 Bootstrap 4/5
 
 HTML5 & CSS3
+
+Setup XAMPP/LAMP/WAMP:
+
+Place the login folder in htdocs (XAMPP) or www (WAMP/LAMP).
+
+Database Setup:
+
+Create a MySQL database (e.g., restro).
+
+
+Update config.php with your database credentials.
+
+Run the Project:
+
+Start Apache and MySQL.
+
+Open your browser and go to:
+http://localhost/restro/login.php
